@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
@@ -311,7 +311,7 @@ export function FeaturedEstatesCarousel() {
                 onClickCapture={handleSlideClickCapture}
               >
                 <div className="featured-property-scroll-parallax">
-                  <div className="overflow-hidden rounded-2xl border border-teal-700/25 bg-white shadow-[0_0_35px_-5px_rgba(13,148,136,0.18)] transition-all">
+                  <div className="overflow-hidden rounded-2xl border border-blue-600/20 bg-white shadow-[0_0_35px_-5px_rgba(2,92,222,0.15)] transition-all">
                     <div className="grid grid-cols-1 lg:grid-cols-12">
                       {/* Large Estate Image with Differential Parallax Window */}
                       <div className="lg:col-span-7 relative min-h-[280px] sm:min-h-[380px] lg:min-h-[480px] bg-slate-100 overflow-hidden estates-media-window">
@@ -332,7 +332,7 @@ export function FeaturedEstatesCarousel() {
                         <div className="space-y-4">
                           {/* Location */}
                           <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-500">
-                            <MapPin className="w-3.5 h-3.5 text-teal-600 shrink-0" />
+                            <MapPin className="w-3.5 h-3.5 text-[#025CDE] shrink-0" />
                             <span>{slide.location}</span>
                           </div>
 
@@ -353,7 +353,7 @@ export function FeaturedEstatesCarousel() {
                                 key={i}
                                 className="flex items-start gap-2.5 rounded-lg bg-slate-50 border border-slate-200/80 p-3 text-xs"
                               >
-                                <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                                <CheckCircle2 className="w-4 h-4 text-[#025CDE] shrink-0 mt-0.5" />
                                 <span className="text-slate-900 font-medium">{fact}</span>
                               </div>
                             ))}
@@ -411,7 +411,7 @@ export function FeaturedEstatesCarousel() {
                 onClick={() => scrollToSlide(idx)}
                 className={`transition-all duration-300 rounded-full ${
                   idx === currentIndex
-                    ? "w-6 h-2 bg-teal-700"
+                    ? "w-6 h-2 bg-[#025CDE]"
                     : "w-2 h-2 bg-slate-300 hover:bg-slate-400"
                 }`}
                 aria-label={`Go to slide ${idx + 1}`}

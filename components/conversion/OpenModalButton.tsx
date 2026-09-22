@@ -23,7 +23,7 @@ export function OpenModalButton({
     primary: 'bg-[var(--theme-accent)] hover:bg-[var(--theme-accent-hover)] text-white active:scale-95',
     secondary: 'bg-[var(--theme-surface)] hover:bg-[var(--theme-bg)] text-[var(--theme-text)] border border-[var(--theme-border)] active:scale-95',
     outline: 'bg-transparent border border-white text-white hover:bg-white/10 active:scale-95',
-    hero: 'bg-[#0D8975] hover:bg-[#109580] text-[#F7F4EC] active:scale-95 shadow-sm',
+    hero: 'bg-[#025CDE] hover:bg-[#0047BA] text-white active:scale-95 shadow-sm',
     none: '',
   };
 

@@ -217,7 +217,7 @@ export function AboutSection() {
       id="about"
       ref={sectionRef}
       data-motion-section="about"
-      style={{ backgroundColor: "#F6F8F5" }}
+      style={{ backgroundColor: "#F8FAFC" }}
       className={`w-full scroll-mt-24 ${
         isRevealed ? "about-is-revealed" : ""
       }`}
@@ -228,7 +228,7 @@ export function AboutSection() {
         {/* Mobile Header: ABOUT US + Headline + Body (Visible on mobile only, matches specified mobile sequence) */}
         <div className="block lg:hidden space-y-4 mb-6">
           <div className="about-anim-eyebrow">
-            <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE]">
               ABOUT US
             </span>
           </div>
@@ -300,7 +300,7 @@ export function AboutSection() {
                 <div
                   ref={metricInnerRef}
                   style={{ willChange: "transform" }}
-                  className="w-[100px] h-[98px] sm:w-[116px] sm:h-[112px] lg:w-[124px] lg:h-[120px] rounded-2xl bg-[#0D8975] text-[#F7F4EC] p-3 flex flex-col items-center justify-center text-center shadow-xl shadow-teal-950/20 border border-white/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-teal-950/30 cursor-default"
+                  className="w-[100px] h-[98px] sm:w-[116px] sm:h-[112px] lg:w-[124px] lg:h-[120px] rounded-2xl bg-[#025CDE] text-white p-3 flex flex-col items-center justify-center text-center shadow-xl shadow-blue-950/20 border border-white/20 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-blue-950/30 cursor-default"
                 >
                   <span className="text-2xl sm:text-3xl lg:text-[32px] font-bold tracking-tight text-white leading-none font-mono">
                     X+
@@ -320,7 +320,7 @@ export function AboutSection() {
             {/* Desktop Header: ABOUT US + Headline + Body (Visible on lg: and up) */}
             <div className="hidden lg:block space-y-4">
               <div className="about-anim-eyebrow">
-                <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE]">
                   ABOUT US
                 </span>
               </div>
@@ -341,8 +341,8 @@ export function AboutSection() {
                   key={idx}
                   className={`about-proof-row about-proof-row-${idx} flex items-center gap-3.5 py-3.5 sm:py-4 px-2 -mx-2 rounded-md transition-colors hover:bg-slate-50/70 group`}
                 >
-                  <div className="flex items-center justify-center w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 shrink-0">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                  <div className="flex items-center justify-center w-5 h-5 rounded-full bg-blue-50 text-[#025CDE] shrink-0">
+                    <CheckCircle2 className="w-4 h-4 text-[#025CDE] shrink-0" />
                   </div>
                   <span className="text-xs sm:text-sm font-medium text-slate-800 tracking-tight">
                     {evidence}
@@ -355,7 +355,7 @@ export function AboutSection() {
             <div className="about-anim-cta pt-1">
               <Link
                 href="/about"
-                className="group inline-flex items-center gap-2 text-xs font-bold text-teal-700 hover:text-teal-800 transition-colors"
+                className="group inline-flex items-center gap-2 text-xs font-bold text-[#025CDE] hover:text-[#0047BA] transition-colors"
               >
                 <span>Learn More About Us</span>
                 <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { getCompanyConfig, getEstates } from '@/lib/config';
 import { OfficeAddressCard } from '@/components/proof/OfficeAddressCard';
 import { OpenModalButton } from '@/components/conversion/OpenModalButton';
@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact & Office Visit | Veritas Crest Properties',
+  title: 'Contact & Office Visit | BLUEJET PROPERTIES',
   description: 'Visit our Victoria Island headquarters, schedule a Saturday site inspection, or speak directly with our estate surveyor team.',
 };
 

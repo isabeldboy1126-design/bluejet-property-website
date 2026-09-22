@@ -6,13 +6,13 @@
   --theme-bg: #f8fafc;
   --theme-surface: #ffffff;
   --theme-card: #ffffff;
-  --theme-text: #0f172a;
+  --theme-text: #071139;
   --theme-muted: #64748b;
-  --theme-accent: #0f766e;
-  --theme-accent-hover: #115e59;
+  --theme-accent: #025cde;
+  --theme-accent-hover: #0047ba;
   --theme-border: #e2e8f0;
-  --theme-tag-bg: #f1f5f9;
-  --theme-tag-text: #0f172a;
+  --theme-tag-bg: #eff6ff;
+  --theme-tag-text: #071139;
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --font-display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --border-radius-base: 8px;
@@ -763,14 +763,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   background:
     radial-gradient(
       circle at 50% 45%,
-      rgba(14, 111, 92, 0.18),
-      transparent 36%
+      rgba(2, 92, 222, 0.22),
+      transparent 45%
     ),
     linear-gradient(
       145deg,
-      #031d19 0%,
-      #021713 55%,
-      #01110f 100%
+      #071139 0%,
+      #050d24 55%,
+      #030818 100%
     );
 }
 

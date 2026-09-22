@@ -110,7 +110,7 @@ export function LocationCardsGrid() {
             <div className="pt-2">
               <Link
                 href={siteMode === "single" ? "#inspection" : loc.href}
-                className="inline-flex items-center gap-2 text-xs font-bold text-teal-300 group-hover:text-white transition-colors"
+                className="inline-flex items-center gap-2 text-xs font-bold text-blue-300 group-hover:text-white transition-colors"
               >
                 <span>
                   {siteMode === "single"

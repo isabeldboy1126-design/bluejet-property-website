@@ -43,7 +43,7 @@ export function InspectionEnquirySection() {
       data-motion-section="inspection"
       style={{
         background:
-          "linear-gradient(135deg, #064E44 0%, #04443B 55%, #033830 100%)",
+          "linear-gradient(135deg, #071139 0%, #0A1B44 55%, #050D24 100%)",
       }}
       className={`w-full relative overflow-hidden py-[72px] lg:py-[96px] text-[#F7F4EC] scroll-mt-24 ${
         isRevealed ? "enquiry-revealed" : ""
@@ -89,7 +89,7 @@ export function InspectionEnquirySection() {
           {/* Left: Next Action Prompt */}
           <div className="lg:col-span-5 space-y-5">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-emerald-300 block">
+              <span className="text-xs font-bold uppercase tracking-wider text-blue-300 block">
                 TAKE THE NEXT STEP
               </span>
               <h2 className="mt-2 text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-[#F7F4EC] tracking-tight leading-[1.25]">
@@ -109,14 +109,14 @@ export function InspectionEnquirySection() {
                 className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-5 py-3 bg-white/10 hover:bg-white/15 text-white border border-white/20 shadow-sm transition-all active:scale-95 touch-target gap-2"
               >
                 <span>View Properties</span>
-                <ArrowRight className="w-4 h-4 text-emerald-300" />
+                <ArrowRight className="w-4 h-4 text-blue-300" />
               </Link>
 
               <a
                 href="https://wa.me/?text=Hello%20I%20am%20enquiring%20about%20your%20properties"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-5 py-3 bg-emerald-500 hover:bg-emerald-600 text-white shadow-sm transition-transform active:scale-95 touch-target"
+                className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-5 py-3 bg-[#025CDE] hover:bg-[#0047BA] text-white shadow-sm transition-transform active:scale-95 touch-target"
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 <span>Talk to an Advisor</span>

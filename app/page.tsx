@@ -34,7 +34,7 @@ export default function HomePage() {
         <section id="locations" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-24">
           {/* Header: Strict rule: Eyebrow + Headline. STOP THERE. No intro paragraph! */}
           <div className="mb-8">
-            <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE]">
               OUR LOCATIONS
             </span>
             <h2 className="mt-2 text-section-heading font-bold text-slate-900 tracking-tight">
@@ -50,7 +50,7 @@ export default function HomePage() {
           {/* Header: Strict rule: Eyebrow + Headline. STOP THERE. No intro paragraph! */}
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE]">
                 FEATURED PROPERTIES
               </span>
               <h2 className="mt-2 text-section-heading font-bold text-slate-900 tracking-tight">
@@ -59,7 +59,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/estates"
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 hover:text-teal-800"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#025CDE] hover:text-[#0047BA]"
             >
               <span>View All Properties</span>
               <ArrowRight className="w-3.5 h-3.5" />

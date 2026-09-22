@@ -205,9 +205,9 @@ export function HeroSection() {
       ref={heroRef}
       style={{
         background:
-          "radial-gradient(circle at 22% 18%, rgba(25, 135, 114, 0.14), transparent 35%), linear-gradient(135deg, #08584D 0%, #055046 48%, #03483F 100%)",
+          "radial-gradient(circle at 22% 18%, rgba(2, 92, 222, 0.18), transparent 45%), linear-gradient(135deg, #071139 0%, #0A1B44 50%, #060E2A 100%)",
       }}
-      className="relative overflow-hidden border-b border-emerald-950/40 text-[#F7F4EC] md:min-h-[calc(100vh-82px)] md:min-h-[calc(100svh-82px)] md:flex md:flex-col md:justify-between"
+      className="relative overflow-hidden border-b border-blue-950/40 text-[#F7F4EC] md:min-h-[calc(100vh-82px)] md:min-h-[calc(100svh-82px)] md:flex md:flex-col md:justify-between"
     >
         {/* ============================================================== */}
         {/* Subtle Architectural Curved Linework (Pointer-events: none)    */}
@@ -375,7 +375,7 @@ export function HeroSection() {
             <div className="flex flex-col pt-1">
               {/* Trust Eyebrow (18-22px space after) */}
               <div className="hero-anim-eyebrow inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.08] px-3.5 py-1 text-xs font-semibold text-white/90 w-fit backdrop-blur-sm shadow-sm mb-5">
-                <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+                <ShieldCheck className="w-4 h-4 text-blue-400 shrink-0" />
                 <span>[VERIFIED SOCIAL PROOF / TRUST SIGNAL]</span>
               </div>
 
@@ -396,7 +396,7 @@ export function HeroSection() {
                     href={whatsappUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center h-11 md:h-12 px-6 rounded-lg bg-[#14B889] hover:bg-[#18C493] text-xs font-bold text-white shadow-md transition-transform active:scale-95 touch-target"
+                    className="inline-flex items-center justify-center h-11 md:h-12 px-6 rounded-lg bg-[#025CDE] hover:bg-[#0047BA] text-xs font-bold text-white shadow-md transition-transform active:scale-95 touch-target"
                   >
                     <MessageCircle className="w-4 h-4 mr-2 shrink-0 text-white fill-current/20" />
                     <span>Talk to an Advisor</span>
@@ -458,7 +458,7 @@ export function HeroSection() {
               {/* Metric 01 */}
               <div className="hero-anim-metric-1 flex items-center gap-3.5 pr-4 border-r border-white/18">
                 <div className="w-8 h-8 rounded-full bg-white/[0.08] border border-white/10 flex items-center justify-center shrink-0">
-                  <Users className="w-4 h-4 text-emerald-300" />
+                  <Users className="w-4 h-4 text-blue-300" />
                 </div>
                 <div className="space-y-0.5">
                   <div className="text-2xl font-bold tracking-tight text-[#F7F4EC] font-mono leading-none">
@@ -473,7 +473,7 @@ export function HeroSection() {
               {/* Metric 02 */}
               <div className="hero-anim-metric-2 flex items-center gap-3.5 px-4 border-r border-white/18">
                 <div className="w-8 h-8 rounded-full bg-white/[0.08] border border-white/10 flex items-center justify-center shrink-0">
-                  <Layers className="w-4 h-4 text-emerald-300" />
+                  <Layers className="w-4 h-4 text-blue-300" />
                 </div>
                 <div className="space-y-0.5">
                   <div className="text-2xl font-bold tracking-tight text-[#F7F4EC] font-mono leading-none">
@@ -488,7 +488,7 @@ export function HeroSection() {
               {/* Metric 03 */}
               <div className="hero-anim-metric-3 flex items-center gap-3.5 px-4 border-r border-white/18">
                 <div className="w-8 h-8 rounded-full bg-white/[0.08] border border-white/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-4 h-4 text-emerald-300" />
+                  <MapPin className="w-4 h-4 text-blue-300" />
                 </div>
                 <div className="space-y-0.5">
                   <div className="text-2xl font-bold tracking-tight text-[#F7F4EC] font-mono leading-none">
@@ -503,7 +503,7 @@ export function HeroSection() {
               {/* Metric 04 */}
               <div className="hero-anim-metric-4 flex items-center gap-3.5 pl-4">
                 <div className="w-8 h-8 rounded-full bg-white/[0.08] border border-white/10 flex items-center justify-center shrink-0">
-                  <BarChart3 className="w-4 h-4 text-emerald-300" />
+                  <BarChart3 className="w-4 h-4 text-blue-300" />
                 </div>
                 <div className="space-y-0.5">
                   <div className="text-2xl font-bold tracking-tight text-[#F7F4EC] font-mono leading-none">
@@ -526,7 +526,7 @@ export function HeroSection() {
           <div className="pt-9 sm:pt-10">
             {/* 2. Trust Signal Pill (11px, 6px gap, 12px x 5px padding, 14px icon) */}
             <div className="hero-anim-eyebrow inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/[0.08] px-3 py-[5px] text-[11px] leading-[1.25] font-semibold text-white/90">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+              <ShieldCheck className="w-3.5 h-3.5 text-blue-400 shrink-0" />
               <span>[VERIFIED SOCIAL PROOF / TRUST SIGNAL]</span>
             </div>
           </div>
@@ -547,7 +547,7 @@ export function HeroSection() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full h-[50px] inline-flex items-center justify-center text-sm font-bold rounded-lg bg-[#14B889] hover:bg-[#18C493] text-white shadow-md active:scale-[0.985] touch-target"
+              className="w-full h-[50px] inline-flex items-center justify-center text-sm font-bold rounded-lg bg-[#025CDE] hover:bg-[#0047BA] text-white shadow-md active:scale-[0.985] touch-target"
             >
               <MessageCircle className="w-4 h-4 mr-2 shrink-0 text-white fill-current/20" />
               <span>Talk to an Advisor</span>

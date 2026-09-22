@@ -135,9 +135,13 @@ export function LogoFlightCoordinator() {
       <div
         ref={cloneRef}
         style={{ willChange: "transform, opacity" }}
-        className="h-9 px-3.5 rounded-md bg-slate-900 text-white flex items-center justify-center font-bold text-xs tracking-wider border border-white/20 shadow-2xl"
+        className="flex items-center justify-center shrink-0"
       >
-        [COMPANY LOGO]
+        <img
+          src="/images/bluejet-logo.png"
+          alt="BLUEJET PROPERTIES"
+          className="h-9 w-auto object-contain"
+        />
       </div>
     </div>
   );

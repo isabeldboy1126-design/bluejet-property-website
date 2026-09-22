@@ -21,8 +21,8 @@ export function InspectionForm() {
 
   if (submitted) {
     return (
-      <div className="rounded-2xl border border-teal-200 bg-teal-50/70 p-8 sm:p-10 text-center space-y-4">
-        <div className="w-12 h-12 rounded-full bg-teal-600 text-white flex items-center justify-center mx-auto shadow-sm">
+      <div className="rounded-2xl border border-blue-200 bg-blue-50/70 p-8 sm:p-10 text-center space-y-4">
+        <div className="w-12 h-12 rounded-full bg-[#025CDE] text-white flex items-center justify-center mx-auto shadow-sm">
           <CheckCircle2 className="w-6 h-6" />
         </div>
         <h3 className="text-xl font-bold text-slate-900">
@@ -35,7 +35,7 @@ export function InspectionForm() {
           <button
             type="button"
             onClick={() => setSubmitted(false)}
-            className="text-xs font-semibold text-teal-700 hover:underline"
+            className="text-xs font-semibold text-[#025CDE] hover:underline"
           >
             Submit another enquiry
           </button>
@@ -70,7 +70,7 @@ export function InspectionForm() {
                 onClick={() => setEnquiryIntent(intent.id)}
                 className={`px-3 py-2 text-xs font-semibold rounded-lg border text-center transition-all ${
                   enquiryIntent === intent.id
-                    ? "border-teal-700 bg-teal-50 text-teal-900 ring-1 ring-teal-700 shadow-sm"
+                    ? "border-[#025CDE] bg-blue-50 text-[#071139] ring-1 ring-[#025CDE] shadow-sm"
                     : "border-slate-200 bg-white text-slate-600 hover:border-slate-300"
                 }`}
               >
@@ -92,7 +92,7 @@ export function InspectionForm() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               placeholder="Full Name"
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             />
           </div>
 
@@ -108,7 +108,7 @@ export function InspectionForm() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Phone / WhatsApp Number"
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             />
           </div>
         </div>
@@ -124,7 +124,7 @@ export function InspectionForm() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email Address"
-            className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+            className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 placeholder:text-slate-400 focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
           />
         </div>
 
@@ -138,7 +138,7 @@ export function InspectionForm() {
               id="preferred-location"
               value={preferredLocation}
               onChange={(e) => setPreferredLocation(e.target.value)}
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             >
               <option value="[LOCATION 01]">[LOCATION 01]</option>
               <option value="[LOCATION 02]">[LOCATION 02]</option>
@@ -155,7 +155,7 @@ export function InspectionForm() {
               id="estate-interest"
               value={estateInterest}
               onChange={(e) => setEstateInterest(e.target.value)}
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             >
               <option value="[ESTATE 01]">[ESTATE 01]</option>
               <option value="[ESTATE 02]">[ESTATE 02]</option>
@@ -174,7 +174,7 @@ export function InspectionForm() {
               id="looking-for"
               value={lookingFor}
               onChange={(e) => setLookingFor(e.target.value)}
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             >
               <option value="[PROPERTY TYPE 01]">[PROPERTY TYPE 01]</option>
               <option value="[PROPERTY TYPE 02]">[PROPERTY TYPE 02]</option>
@@ -192,7 +192,7 @@ export function InspectionForm() {
               type="date"
               value={inspectionDate}
               onChange={(e) => setInspectionDate(e.target.value)}
-              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-teal-600 focus:ring-1 focus:ring-teal-600"
+              className="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm text-slate-900 bg-white focus:border-[#025CDE] focus:ring-1 focus:ring-[#025CDE]"
             />
           </div>
         </div>
@@ -201,7 +201,7 @@ export function InspectionForm() {
         <div className="pt-2">
           <button
             type="submit"
-            className="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-lg text-sm font-bold text-white bg-teal-700 hover:bg-teal-800 shadow-md transition-transform active:scale-98 touch-target"
+            className="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-lg text-sm font-bold text-white bg-[#025CDE] hover:bg-[#0047BA] shadow-md transition-transform active:scale-98 touch-target"
           >
             <span>Talk to an Advisor</span>
             <ArrowRight className="w-4 h-4" />

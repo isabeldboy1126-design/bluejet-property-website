@@ -5,18 +5,22 @@ import { MapPin, Phone, Mail, Shield } from "lucide-react";
 export function SiteFooter() {
   return (
     <footer
-      style={{ backgroundColor: "#F7F8F5" }}
+      style={{ backgroundColor: "#F8FAFC" }}
       className="w-full border-t border-slate-200/80 pt-12 pb-14 text-slate-800"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-slate-200/80">
           {/* Col 1: Logo & Company Identity */}
           <div className="space-y-3">
-            <div className="h-9 px-3 rounded-md bg-slate-900 text-white flex items-center justify-center font-bold text-xs tracking-wider w-fit">
-              [COMPANY LOGO]
+            <div className="flex items-center">
+              <img
+                src="/images/bluejet-logo.png"
+                alt="BLUEJET PROPERTIES"
+                className="h-9 w-auto object-contain"
+              />
             </div>
             <div className="font-bold text-base text-slate-900">
-              [COMPANY NAME]
+              BLUEJET PROPERTIES
             </div>
             <p className="text-xs text-slate-500 leading-relaxed">
               [SHORT COMPANY DESCRIPTION / TAGLINE]
@@ -29,7 +33,7 @@ export function SiteFooter() {
               Office Location
             </h3>
             <div className="flex items-start gap-2 text-xs text-slate-600">
-              <MapPin className="w-4 h-4 text-teal-700 shrink-0 mt-0.5" />
+              <MapPin className="w-4 h-4 text-[#025CDE] shrink-0 mt-0.5" />
               <span>[PHYSICAL OFFICE ADDRESS]</span>
             </div>
           </div>
@@ -41,11 +45,11 @@ export function SiteFooter() {
             </h3>
             <div className="space-y-2 text-xs text-slate-600">
               <div className="flex items-center gap-2">
-                <Phone className="w-3.5 h-3.5 text-teal-700 shrink-0" />
+                <Phone className="w-3.5 h-3.5 text-[#025CDE] shrink-0" />
                 <span>[CONTACT PHONE]</span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-3.5 h-3.5 text-teal-700 shrink-0" />
+                <Mail className="w-3.5 h-3.5 text-[#025CDE] shrink-0" />
                 <span>[CONTACT EMAIL]</span>
               </div>
             </div>
@@ -57,7 +61,7 @@ export function SiteFooter() {
               Diligence Notice
             </h3>
             <div className="flex items-start gap-2 text-xs text-slate-500 leading-relaxed">
-              <Shield className="w-4 h-4 text-teal-700 shrink-0 mt-0.5" />
+              <Shield className="w-4 h-4 text-[#025CDE] shrink-0 mt-0.5" />
               <span>[STATUTORY / REGULATORY NOTICE]</span>
             </div>
           </div>
@@ -81,7 +85,7 @@ export function SiteFooter() {
           </div>
 
           <div>
-            © 2026 [COMPANY NAME]. All rights reserved.
+            © 2026 BLUEJET PROPERTIES. All rights reserved.
           </div>
         </div>
       </div>

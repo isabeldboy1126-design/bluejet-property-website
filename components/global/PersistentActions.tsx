@@ -104,9 +104,9 @@ export function PersistentActions({ company }: PersistentActionsProps) {
         <MagneticFloatingButton
           href="#properties"
           ariaLabel="Properties"
-          className="inline-flex h-10 md:h-11 items-center gap-2 rounded-full border border-white/20 bg-[#083F39]/95 px-4 md:px-[18px] text-xs font-semibold text-white shadow-lg backdrop-blur-md hover:bg-[#0A4B43] hover:border-white/30 hover:-translate-y-0.5 active:scale-[0.98] transition-all"
+          className="inline-flex h-10 md:h-11 items-center gap-2 rounded-full border border-white/20 bg-[#071139]/95 px-4 md:px-[18px] text-xs font-semibold text-white shadow-lg backdrop-blur-md hover:bg-[#0A1B44] hover:border-white/30 hover:-translate-y-0.5 active:scale-[0.98] transition-all"
         >
-          <Layers className="w-3.5 h-3.5 text-emerald-300 shrink-0" />
+          <Layers className="w-3.5 h-3.5 text-blue-300 shrink-0" />
           <span>Properties</span>
         </MagneticFloatingButton>
 

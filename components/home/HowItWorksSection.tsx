@@ -61,7 +61,7 @@ export function HowItWorksSection() {
     >
       {/* Centered Header: Strict rule: Eyebrow + Headline. STOP THERE. No intro paragraph! */}
       <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-        <span className="text-xs font-bold uppercase tracking-wider text-teal-700 block">
+        <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE] block">
           HOW IT WORKS
         </span>
         <h2 className="mt-2 text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-slate-900 tracking-tight leading-[1.25]">
@@ -79,7 +79,7 @@ export function HowItWorksSection() {
           <div className="absolute top-[22px] left-[16.67%] right-[16.67%] h-[2px] bg-slate-200/90 z-0">
             <div
               id="how-it-works-line-desktop"
-              className="h-full bg-teal-600 scale-x-0"
+              className="h-full bg-[#025CDE] scale-x-0"
               style={{ width: "100%", transformOrigin: "left center" }}
             />
           </div>
@@ -88,7 +88,7 @@ export function HowItWorksSection() {
           <div className="grid grid-cols-3 gap-8 relative z-10">
             {steps.map((step) => (
               <div key={step.num} className="flex flex-col items-center">
-                <div className="w-11 h-11 rounded-full border-2 border-teal-700 bg-white font-mono font-bold text-sm text-teal-800 flex items-center justify-center shadow-sm">
+                <div className="w-11 h-11 rounded-full border-2 border-[#025CDE] bg-white font-mono font-bold text-sm text-[#071139] flex items-center justify-center shadow-sm">
                   {step.num}
                 </div>
               </div>
@@ -104,7 +104,7 @@ export function HowItWorksSection() {
               className={`how-step-card how-step-card-${idx} rounded-xl border border-slate-200 bg-white p-7 shadow-sm flex flex-col justify-between transition-shadow duration-300 hover:shadow-md`}
             >
               <div>
-                <span className="text-[11px] font-mono font-bold text-teal-700 block mb-2 uppercase tracking-wider">
+                <span className="text-[11px] font-mono font-bold text-[#025CDE] block mb-2 uppercase tracking-wider">
                   Phase {step.num}
                 </span>
                 <h3 className="text-base sm:text-lg font-bold text-slate-900">
@@ -127,7 +127,7 @@ export function HowItWorksSection() {
         <div className="absolute left-[29px] sm:left-[37px] top-6 bottom-8 w-[2px] bg-slate-200 overflow-hidden">
           <div
             id="how-it-works-line-mobile"
-            className="w-full h-full bg-teal-600 scale-y-0"
+            className="w-full h-full bg-[#025CDE] scale-y-0"
             style={{ transformOrigin: "center top" }}
           />
         </div>
@@ -136,7 +136,7 @@ export function HowItWorksSection() {
           {steps.map((step, idx) => (
             <div key={idx} className="relative flex items-start gap-4 sm:gap-6">
               {/* Circular Numbered Node */}
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border-2 border-teal-700 bg-white font-mono font-bold text-xs sm:text-sm text-teal-800 flex items-center justify-center shadow-sm relative z-10 shrink-0">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border-2 border-[#025CDE] bg-white font-mono font-bold text-xs sm:text-sm text-[#071139] flex items-center justify-center shadow-sm relative z-10 shrink-0">
                 {step.num}
               </div>
 
@@ -146,7 +146,7 @@ export function HowItWorksSection() {
               >
                 <div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-[11px] font-mono font-bold text-teal-700 block uppercase tracking-wider">
+                    <span className="text-[11px] font-mono font-bold text-[#025CDE] block uppercase tracking-wider">
                       Phase {step.num}
                     </span>
                   </div>

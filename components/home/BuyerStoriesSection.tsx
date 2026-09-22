@@ -105,7 +105,7 @@ export function BuyerStoriesSection({
       id="buyer-stories"
       ref={sectionRef}
       data-motion-section="buyer-stories"
-      style={{ backgroundColor: "#F7F8F6" }}
+      style={{ backgroundColor: "#F8FAFC" }}
       className={`w-full py-20 lg:py-24 scroll-mt-24 ${
         isRevealed ? "buyer-stories-revealed" : ""
       }`}
@@ -113,7 +113,7 @@ export function BuyerStoriesSection({
       <div data-motion-inner="buyer-stories" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header: Centered Eyebrow + Headline */}
         <div className="text-center max-w-4xl mx-auto mb-12 sm:mb-16 space-y-3">
-          <span className="text-xs font-bold uppercase tracking-wider text-teal-700 block">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE] block">
             BUYER STORIES
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-slate-900 tracking-tight leading-[1.2]">
@@ -277,7 +277,7 @@ export function BuyerStoriesSection({
         <div className="mt-12 sm:mt-14 text-center">
           <OpenModalButton
             variant="primary"
-            className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-7 py-3.5 bg-emerald-700 hover:bg-emerald-800 text-white shadow-sm hover:shadow transition-all active:scale-95"
+            className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-7 py-3.5 bg-[#025CDE] hover:bg-[#0047BA] text-white shadow-sm hover:shadow transition-all active:scale-95"
           >
             <span>Get Similar Results</span>
           </OpenModalButton>

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { getCompanyConfig, getStrategyConfig } from '@/lib/config';
 import { OfficeAddressCard } from '@/components/proof/OfficeAddressCard';
@@ -17,7 +17,7 @@ import {
 
 export const metadata = {
   title: 'About Us | Institutional Land Development & Operating Principles',
-  description: 'Veritas Crest Properties develops verified master-planned estate communities across Nigeria with statutory title records and physical beacon allocation.',
+  description: 'BLUEJET PROPERTIES develops verified master-planned estate communities across Nigeria with statutory title records and physical beacon allocation.',
 };
 
 export default function AboutPage() {

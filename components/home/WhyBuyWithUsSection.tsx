@@ -36,17 +36,17 @@ export function WhyBuyWithUsSection() {
 
   const benefits = [
     {
-      icon: <ShieldCheck className="w-5 h-5 text-emerald-300" />,
+      icon: <ShieldCheck className="w-5 h-5 text-blue-300" />,
       title: "[BUYER BENEFIT 01]",
       text: "[SHORT EXPLANATION OF THE COMPANY CAPABILITY / EVIDENCE THAT CREATES THIS BENEFIT]",
     },
     {
-      icon: <FileCheck className="w-5 h-5 text-emerald-300" />,
+      icon: <FileCheck className="w-5 h-5 text-blue-300" />,
       title: "[BUYER BENEFIT 02]",
       text: "[SHORT EXPLANATION OF THE COMPANY CAPABILITY / EVIDENCE THAT CREATES THIS BENEFIT]",
     },
     {
-      icon: <CalendarCheck className="w-5 h-5 text-emerald-300" />,
+      icon: <CalendarCheck className="w-5 h-5 text-blue-300" />,
       title: "[BUYER BENEFIT 03]",
       text: "[SHORT EXPLANATION OF THE COMPANY CAPABILITY / EVIDENCE THAT CREATES THIS BENEFIT]",
     },
@@ -59,7 +59,7 @@ export function WhyBuyWithUsSection() {
       data-motion-section="why-buy"
       style={{
         background:
-          "linear-gradient(135deg, #075A50 0%, #055248 55%, #04483F 100%)",
+          "linear-gradient(135deg, #071139 0%, #0A1B44 55%, #050D24 100%)",
       }}
       className={`w-full relative overflow-hidden py-[72px] lg:py-[96px] text-[#F7F4EC] scroll-mt-24 ${
         isRevealed ? "why-buy-revealed" : ""
@@ -95,7 +95,7 @@ export function WhyBuyWithUsSection() {
       <div data-motion-inner="why-buy" className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header: Strict rule: Eyebrow + Headline. STOP THERE. No intro paragraph! */}
         <div className="mb-10 max-w-3xl">
-          <span className="text-xs font-bold uppercase tracking-wider text-emerald-300/90 block">
+          <span className="text-xs font-bold uppercase tracking-wider text-blue-300/90 block">
             WHY BUY WITH US
           </span>
           <h2 className="mt-2 text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-[#F7F4EC] tracking-tight leading-[1.25]">
@@ -115,7 +115,7 @@ export function WhyBuyWithUsSection() {
             >
               <div className="why-buy-parallax-inner h-full flex flex-col justify-between">
                 <div>
-                  <div className="why-buy-icon w-11 h-11 rounded-lg bg-emerald-950/60 border border-emerald-400/25 flex items-center justify-center mb-5 transition-transform duration-300">
+                  <div className="why-buy-icon w-11 h-11 rounded-lg bg-blue-950/60 border border-blue-400/25 flex items-center justify-center mb-5 transition-transform duration-300">
                     {b.icon}
                   </div>
                   <h3 className="text-base sm:text-lg font-bold text-[#F7F4EC] tracking-tight">
@@ -129,7 +129,7 @@ export function WhyBuyWithUsSection() {
                 <div className="pt-5 mt-4 border-t border-white/10">
                   <Link
                     href="#inspection"
-                    className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-300 hover:text-white transition-colors group/cta"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold text-blue-300 hover:text-white transition-colors group/cta"
                   >
                     <span>Get Benefit</span>
                     <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover/cta:translate-x-1" />

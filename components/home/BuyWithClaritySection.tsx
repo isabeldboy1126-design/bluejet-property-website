@@ -55,7 +55,7 @@ export function BuyWithClaritySection() {
           {/* Left: Verification Benefits */}
           <div className="lg:col-span-7 space-y-5">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-teal-700">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#025CDE]">
                 BUY WITH GREATER CLARITY
               </span>
               <h2 className="mt-2 text-section-heading font-bold text-slate-900 tracking-tight">
@@ -74,7 +74,7 @@ export function BuyWithClaritySection() {
                   key={idx}
                   className="flex items-start gap-3 rounded-lg bg-slate-50 p-3.5 border border-slate-200/80"
                 >
-                  <CheckCircle2 className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-4 h-4 text-[#025CDE] shrink-0 mt-0.5" />
                   <span className="text-xs font-medium text-slate-900 leading-relaxed">
                     {item}
                   </span>
@@ -93,7 +93,7 @@ export function BuyWithClaritySection() {
                 href="#inspection"
                 className="inline-flex items-center justify-center font-bold text-xs rounded-lg px-4 py-3 border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 transition-colors touch-target shadow-sm"
               >
-                <MessageCircle className="w-4 h-4 mr-1.5 text-emerald-600" />
+                <MessageCircle className="w-4 h-4 mr-1.5 text-[#025CDE]" />
                 <span>Request Property Information</span>
               </a>
             </div>

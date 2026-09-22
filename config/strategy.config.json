@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "status": "SYNTHETIC_FIXTURE",
+    "notice": "NOT_REAL_PROSPECT • NOT_VERIFIED • NOT_FOR_PROSPECT_FACING_OUTPUT",
+    "instructions": "Strategy values should be approved per prospect through Human Gate A before sales calls"
+  },
+  "hero": {
+    "focusMode": "OPPORTUNITY",
+    "_availableFocusModes": [
+      "TRUST",
+      "DESIRED_OUTCOME",
+      "OPPORTUNITY",
+      "PROBLEM",
+      "CATEGORY_CLARITY",
+      "PROJECT_INTRODUCTION",
+      "OFFER",
+      "DIFFERENTIATION",
+      "PROOF",
+      "IDENTITY_STATUS",
+      "OTHER_APPROVED_JOB"
+    ],
+    "headline": "Own Verified Estate Land in High-Growth Expansion Corridors",
+    "subheadline": "Serviced residential plots and commercial acreage with inspectable title records, perimeter demarcation, and structured allocation timelines across Lagos and Ogun states.",
+    "primaryCta": {
+      "label": "Schedule Physical Site Inspection",
+      "action": "OPEN_INSPECTION_MODAL",
+      "reassurance": "Physical inspections held on Saturdays • No deposit required to visit"
+    },
+    "proofAnchor": {
+      "text": "Government Gazette & Registered Survey Records • Physical Office in Lagos"
+    }
+  },
+  "earlyCredibility": {
+    "badge": "OPERATIONAL INTEGRITY",
+    "heading": "Verifiable Land Delivery Built on Documentary Transparency",
+    "summary": "We develop residential estate communities where boundary lines, statutory documentation, and physical infrastructure can be inspected before financial commitment.",
+    "anchors": [
+      {
+        "label": "Documentary Diligence",
+        "value": "Independent Search Supported",
+        "detail": "Survey plans and excision coordinates provided for legal verification."
+      },
+      {
+        "label": "Physical Reality",
+        "value": "Demarcated Boundaries",
+        "detail": "All active estates feature physical perimeter fencing and survey beacons."
+      },
+      {
+        "label": "Operating Base",
+        "value": "Physical Lagos Office",
+        "detail": "Open Monday through Saturday for legal document inspection."
+      }
+    ]
+  },
+  "homepageRationale": {
+    "heading": "Why Invest in Selected Expansion Corridors",
+    "subheading": "Strategic accessibility, infrastructural connectivity, and long-term land security.",
+    "rationalePoints": [
+      {
+        "title": "Infrastructural Road Connectivity",
+        "description": "Properties positioned along planned arterial highway expansions, reducing commute friction and unlocking commercial viability.",
+        "badgeText": "Accessibility"
+      },
+      {
+        "title": "Unencumbered Title Safeguards",
+        "description": "Every estate is acquired through registered communal excision or statutory gazette, safeguarding ownership from boundary disputes.",
+        "badgeText": "Title Rigor"
+      },
+      {
+        "title": "Phased Infrastructure Handover",
+        "description": "Structured site delivery schedules covering gatehouses, perimeter fencing, and graded internal access roads.",
+        "badgeText": "Development Groundwork"
+      }
+    ]
+  },
+  "verificationProcess": {
+    "heading": "Documentary and Physical Evidence for Independent Review",
+    "subheading": "We provide the verifiable parameters your legal counsel and surveyor require to confirm title authenticity.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Review Survey Plan & Title Reference",
+        "description": "Obtain registered survey numbers, beacon coordinates, and statutory gazette copies to conduct independent searches at the State Lands Bureau."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Walk the Physical Boundaries",
+        "description": "Inspect the physical site ground reality, perimeter beacons, and surrounding topography during our scheduled weekend site inspections."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Formal Conveyance & Plot Allocation",
+        "description": "Upon documentation sign-off, receive your Contract of Sale, followed by Deed of Assignment and physical beacon handover on site."
+      }
+    ]
+  },
+  "companyProof": {
+    "heading": "Established Developer Track Record",
+    "subheading": "Verifiable company identity, physical presence, and phased estate progress.",
+    "officeAddress": "Plot 14, Commercial Avenue, Victoria Island, Lagos",
+    "cacRegistration": "RC-1849204",
+    "operatingPledge": "We do not sell unacquired or disputed land. All active sites are open for physical inspection before contract execution."
+  },
+  "toggles": {
+    "showVerificationPage": false,
+    "showPricing": true,
+    "showPaymentPlan": true,
+    "showInfrastructureTracker": true,
+    "showHomes": false,
+    "showInteractiveMap": true,
+    "showRemoteVideoInspection": true
+  }
+}

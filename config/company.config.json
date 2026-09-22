@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "status": "SYNTHETIC_FIXTURE",
+    "notice": "NOT_REAL_PROSPECT • NOT_VERIFIED • NOT_FOR_PROSPECT_FACING_OUTPUT",
+    "instructions": "Replace all values in this file with verified prospect data before client presentation"
+  },
+  "companyName": "Veritas Crest Properties",
+  "legalEntityName": "Veritas Crest Properties Limited",
+  "rcNumber": "RC-1849204 [SYNTHETIC_FIXTURE]",
+  "tagline": "Serviced Estate Land & Verified Corridor Developments",
+  "foundedYear": 2019,
+  "contact": {
+    "phonePrimary": "+234 802 000 1122",
+    "whatsappNumber": "2348020001122",
+    "emailGeneral": "enquiries@veritascrest.example.com"
+  },
+  "office": {
+    "addressLine1": "Plot 14, Commercial Avenue, Victoria Island",
+    "city": "Lagos",
+    "state": "Lagos State",
+    "directionsHint": "2nd Floor Suite 204, Opposite Financial Towers",
+    "officeInspectionHours": "Monday - Friday: 9am - 5pm | Saturday: 10am - 4pm"
+  },
+  "socialLinks": {
+    "instagram": "https://instagram.com/example",
+    "facebook": "https://facebook.com/example",
+    "linkedin": "https://linkedin.com/example"
+  },
+  "regulatoryDisclosures": {
+    "statutoryNotice": "All land title documentation and survey plans are available for independent legal verification at the appropriate state lands bureau prior to purchase."
+  }
+}

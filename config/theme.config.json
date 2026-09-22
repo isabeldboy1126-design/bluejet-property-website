@@ -1,0 +1,73 @@
+{
+  "activeVisualDirection": "01A_INSTITUTIONAL_TRUST",
+  "supportedDirections": [
+    "01A_INSTITUTIONAL_TRUST",
+    "01B_GROWTH_OPPORTUNITY",
+    "01C_MODERN_ESTATE_LIVING"
+  ],
+  "variants": {
+    "01A_INSTITUTIONAL_TRUST": {
+      "key": "01A_INSTITUTIONAL_TRUST",
+      "displayName": "01A — Institutional Trust & Documentary Clarity",
+      "perception": "This appears to be a serious company giving me evidence I can inspect and independently verify.",
+      "fontSans": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "fontDisplay": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "fontSerif": "Georgia, serif",
+      "themeBg": "#f8fafc",
+      "themeSurface": "#ffffff",
+      "themeCard": "#ffffff",
+      "themeText": "#0f172a",
+      "themeMuted": "#475569",
+      "themeAccent": "#15803d",
+      "themeAccentHover": "#166534",
+      "themeBorder": "#e2e8f0",
+      "themeTagBg": "#f1f5f9",
+      "themeTagText": "#0f172a",
+      "radius": "6px",
+      "containerClass": "max-w-7xl",
+      "spacingScale": "compact-disciplined"
+    },
+    "01B_GROWTH_OPPORTUNITY": {
+      "key": "01B_GROWTH_OPPORTUNITY",
+      "displayName": "01B — Growth Corridor & Opportunity Clarity",
+      "perception": "This looks like a property and location opportunity worth investigating, and the offer is understandable.",
+      "fontSans": "'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+      "fontDisplay": "'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+      "fontSerif": "Georgia, serif",
+      "themeBg": "#fcfbf9",
+      "themeSurface": "#ffffff",
+      "themeCard": "#ffffff",
+      "themeText": "#0c1e3c",
+      "themeMuted": "#475569",
+      "themeAccent": "#c2410c",
+      "themeAccentHover": "#9a3412",
+      "themeBorder": "#fed7aa",
+      "themeTagBg": "#ffedd5",
+      "themeTagText": "#9a3412",
+      "radius": "10px",
+      "containerClass": "max-w-7xl",
+      "spacingScale": "warm-energetic"
+    },
+    "01C_MODERN_ESTATE_LIVING": {
+      "key": "01C_MODERN_ESTATE_LIVING",
+      "displayName": "01C — Modern Estate Living",
+      "perception": "This looks like an orderly, thoughtfully presented place where I could build or live.",
+      "fontSans": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "fontDisplay": "Georgia, 'Times New Roman', serif",
+      "fontSerif": "Georgia, 'Times New Roman', serif",
+      "themeBg": "#fafaf9",
+      "themeSurface": "#ffffff",
+      "themeCard": "#ffffff",
+      "themeText": "#1c1917",
+      "themeMuted": "#57534e",
+      "themeAccent": "#78350f",
+      "themeAccentHover": "#451a03",
+      "themeBorder": "#e7e5e4",
+      "themeTagBg": "#f5f5f4",
+      "themeTagText": "#44403c",
+      "radius": "4px",
+      "containerClass": "max-w-6xl",
+      "spacingScale": "architectural-spacious"
+    }
+  }
+}

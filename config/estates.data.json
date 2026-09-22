@@ -1,0 +1,314 @@
+[
+  {
+    "id": "palm-crest-epe",
+    "name": "Palm Crest Estate",
+    "slug": "palm-crest-epe",
+    "tagline": "Serviced Residential Plots in the Alaro City Expansion Corridor",
+    "operationalStatus": "AVAILABLE",
+    "isSyntheticFixture": true,
+    "heroMedia": {
+      "type": "AUTHENTIC_PHOTO",
+      "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+      "altText": "Palm Crest Estate entrance boundary showing graded access and perimeter fencing",
+      "caption": "Site perimeter fence and graded access road"
+    },
+    "galleryMedia": [
+      {
+        "type": "AUTHENTIC_PHOTO",
+        "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+        "altText": "Graded internal access road within Palm Crest Estate"
+      },
+      {
+        "type": "AUTHENTIC_PHOTO",
+        "url": "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?auto=format&fit=crop&w=800&q=80",
+        "altText": "Survey beacon pillars installed at boundary lines"
+      },
+      {
+        "type": "MASTER_PLAN",
+        "url": "https://images.unsplash.com/photo-1524813686514-a57563d77d66?auto=format&fit=crop&w=800&q=80",
+        "altText": "Approved estate layout and plot numbering master plan"
+      }
+    ],
+    "location": {
+      "corridor": "Alaro City / Ketu Expansion Corridor",
+      "city": "Epe",
+      "state": "Lagos State",
+      "landmarks": [
+        "8 minutes drive from Epe T-Junction roundabout",
+        "Adjacent to the planned Ketu-Epe industrial expansion highway",
+        "15 minutes from Augustine University permanent campus"
+      ],
+      "coordinates": {
+        "latitude": 6.5842,
+        "longitude": 3.9831,
+        "googleMapsUrl": "https://maps.google.com/?q=6.5842,3.9831"
+      }
+    },
+    "title": {
+      "statutoryType": "Lagos State Government Gazette",
+      "documentReference": "Gazette No. 42, Vol. 54",
+      "issuingAuthority": "Lagos State Lands Bureau",
+      "verificationStatus": "FINAL_SAFE",
+      "diligenceNotice": "Gazette copy and registered survey coordinates are provided to client solicitors for independent search at the Lands Bureau, Alausa, Ikeja.",
+      "surveyPlanNumber": "OG/2022/EPE/419"
+    },
+    "entryPriceDisplay": "₦4,800,000",
+    "entryDepositDisplay": "₦1,000,000 Initial Deposit",
+    "plots": [
+      {
+        "size": "300 sqm",
+        "dimension": "15m x 20m",
+        "use": "Residential (Semi-Detached / 3-Bedroom Bungalow)",
+        "priceDisplay": "₦4,800,000",
+        "numericPrice": 4800000
+      },
+      {
+        "size": "500 sqm",
+        "dimension": "18m x 28m",
+        "use": "Residential (Detached Duplex / Twin Flats)",
+        "priceDisplay": "₦7,500,000",
+        "numericPrice": 7500000
+      }
+    ],
+    "paymentPlans": [
+      {
+        "duration": "Outright (0-30 Days)",
+        "priceDisplay": "₦4,800,000",
+        "depositRequired": "₦1,000,000",
+        "monthlyInstallment": "Balance payable upon deed execution"
+      },
+      {
+        "duration": "6 Months Installment",
+        "priceDisplay": "₦5,200,000",
+        "depositRequired": "₦1,000,000",
+        "monthlyInstallment": "₦700,000 per month (Months 1–6)"
+      },
+      {
+        "duration": "12 Months Spread",
+        "priceDisplay": "₦5,600,000",
+        "depositRequired": "₦1,000,000",
+        "monthlyInstallment": "₦383,333 per month (Months 1–12)"
+      }
+    ],
+    "allocationTimeline": [
+      "Step 1: Physical or Virtual Video Inspection",
+      "Step 2: Solicitor Document Verification & Search",
+      "Step 3: Contract of Sale & Initial Deposit Receipt",
+      "Step 4: Formal Deed of Assignment & Physical Beacon Allocation on Site"
+    ],
+    "infrastructure": {
+      "perimeterFence": "COMPLETED",
+      "accessRoad": "GRADED",
+      "gateHouse": "IN_PROGRESS",
+      "electricitySupply": "POLES_INSTALLED",
+      "drainageNetwork": "UNDERWAY",
+      "securityPost": "STRUCTURE_BUILT",
+      "notes": "Internal perimeter fencing is fully erected. Access road graded with crushed stone base."
+    },
+    "locationRationale": {
+      "title": "Why Position in the Epe Industrial Growth Belt",
+      "points": [
+        "Rapid public infrastructure upgrades along the dual-carriage Lekki-Epe expressway.",
+        "Proximity to major logistics, university, and commercial operations in Epe town.",
+        "Dry table land requiring zero sand-filling prior to foundation excavation."
+      ]
+    },
+    "masterPlanUrl": "https://images.unsplash.com/photo-1524813686514-a57563d77d66?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "haven-park-sagamu",
+    "name": "Haven Park Commercial & Mixed Estate",
+    "slug": "haven-park-sagamu",
+    "tagline": "Strategic Logistics and Mixed-Use Acreage Along the Lagos-Ibadan Corridor",
+    "operationalStatus": "NEW_LAUNCH",
+    "isSyntheticFixture": true,
+    "heroMedia": {
+      "type": "AUTHENTIC_PHOTO",
+      "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80",
+      "altText": "Haven Park Sagamu site topography and highway boundary line",
+      "caption": "Direct access road from interchange arterial connector"
+    },
+    "galleryMedia": [
+      {
+        "type": "AUTHENTIC_PHOTO",
+        "url": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+        "altText": "Site earthworks underway for internal arterial corridor"
+      },
+      {
+        "type": "LOCATION_MAP",
+        "url": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80",
+        "altText": "Corridor proximity diagram relative to interchange"
+      }
+    ],
+    "location": {
+      "corridor": "Sagamu Interchange / Expressway Hub",
+      "city": "Sagamu",
+      "state": "Ogun State",
+      "landmarks": [
+        "6 minutes from the Lagos-Ibadan Expressway Interchange",
+        "Immediate proximity to multinational industrial and distribution hubs",
+        "40 minutes transit time to Ikeja, Lagos State"
+      ],
+      "coordinates": {
+        "latitude": 6.8402,
+        "longitude": 3.6492,
+        "googleMapsUrl": "https://maps.google.com/?q=6.8402,3.6492"
+      }
+    },
+    "title": {
+      "statutoryType": "Registered Survey & Excision File Record",
+      "documentReference": "Ogun State Lands Bureau Ref: OG/SGM/2023/88",
+      "issuingAuthority": "Ogun State Ministry of Physical Planning",
+      "verificationStatus": "FINAL_SAFE",
+      "diligenceNotice": "Boundary beacon coordinates and official survey plan available for solicitor review at the Bureau of Lands and Survey, Abeokuta.",
+      "surveyPlanNumber": "OG/2023/SGM/088"
+    },
+    "entryPriceDisplay": "₦2,500,000",
+    "entryDepositDisplay": "₦500,000 Initial Deposit",
+    "plots": [
+      {
+        "size": "500 sqm",
+        "dimension": "18m x 28m",
+        "use": "Residential / Worker Housing Scheme",
+        "priceDisplay": "₦2,500,000",
+        "numericPrice": 2500000
+      },
+      {
+        "size": "1,000 sqm (Commercial)",
+        "dimension": "36m x 28m",
+        "use": "Commercial Storage / Light Warehousing",
+        "priceDisplay": "₦5,500,000",
+        "numericPrice": 5500000
+      }
+    ],
+    "paymentPlans": [
+      {
+        "duration": "Outright (0-30 Days)",
+        "priceDisplay": "₦2,500,000",
+        "depositRequired": "₦500,000",
+        "monthlyInstallment": "Single balance payment upon documentation"
+      },
+      {
+        "duration": "12 Months Spread",
+        "priceDisplay": "₦3,000,000",
+        "depositRequired": "₦500,000",
+        "monthlyInstallment": "₦208,333 per month (Months 1–12)"
+      }
+    ],
+    "infrastructure": {
+      "perimeterFence": "IN_PROGRESS",
+      "accessRoad": "EARTHWORK_IN_PROGRESS",
+      "gateHouse": "PLANNED",
+      "electricitySupply": "PLANNED",
+      "drainageNetwork": "PLANNED",
+      "securityPost": "ACTIVE",
+      "notes": "Earthmoving equipment actively cutting internal perimeter road. Boundary beacons fully lodged."
+    },
+    "locationRationale": {
+      "title": "Commercial & Residential Utility Along the Interchange Corridor",
+      "points": [
+        "Direct connection to the primary freight and logistics corridor linking Lagos to the rest of the country.",
+        "Accessible price entry compared to Lekki-Epe belt, providing strong land banking potential.",
+        "Zoned for commercial logistics, warehousing, or residential worker housing."
+      ]
+    }
+  },
+  {
+    "id": "crestview-guzape",
+    "name": "Crestview Heights",
+    "slug": "crestview-guzape",
+    "tagline": "Master-Planned Residential Serviced Plots in Guzape District",
+    "operationalStatus": "PHASE_1_ALLOCATED",
+    "isSyntheticFixture": true,
+    "heroMedia": {
+      "type": "AUTHENTIC_PHOTO",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "altText": "Crestview Heights Guzape topography and paved district access road",
+      "caption": "Serviced plateau residential plots overlooking Abuja central district"
+    },
+    "galleryMedia": [
+      {
+        "type": "AUTHENTIC_PHOTO",
+        "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+        "altText": "Paved access corridor leading into Crestview Heights"
+      },
+      {
+        "type": "LABELLED_RENDER",
+        "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+        "altText": "Architectural zoning illustration of planned duplex plots"
+      }
+    ],
+    "location": {
+      "corridor": "Guzape Diplomatic / Elevated Sector",
+      "city": "Abuja FCT",
+      "state": "Federal Capital Territory",
+      "landmarks": [
+        "5 minutes from Asokoro extension connector",
+        "Overlooking the central business district of Abuja",
+        "12 minutes from the Federal Secretariat"
+      ],
+      "coordinates": {
+        "latitude": 9.0321,
+        "longitude": 7.5184,
+        "googleMapsUrl": "https://maps.google.com/?q=9.0321,7.5184"
+      }
+    },
+    "title": {
+      "statutoryType": "FCDA Statutory Right of Occupancy (R of O)",
+      "documentReference": "FCDA/AGIS/GZP/2021/490",
+      "issuingAuthority": "Abuja Geographic Information Systems (AGIS)",
+      "verificationStatus": "FINAL_SAFE",
+      "diligenceNotice": "Title file open for legal search directly at AGIS headquarters, Peace House, Area 11, Garki, Abuja.",
+      "surveyPlanNumber": "FCT/AGIS/2021/GZP-490"
+    },
+    "entryPriceDisplay": "₦38,000,000",
+    "entryDepositDisplay": "₦10,000,000 Initial Commitment",
+    "plots": [
+      {
+        "size": "650 sqm",
+        "dimension": "22m x 30m",
+        "use": "Detached Luxury Villa / Executive Residence",
+        "priceDisplay": "₦38,000,000",
+        "numericPrice": 38000000
+      },
+      {
+        "size": "900 sqm",
+        "dimension": "30m x 30m",
+        "use": "Executive Duplex with Private Compound & Boy's Quarters",
+        "priceDisplay": "₦52,000,000",
+        "numericPrice": 52000000
+      }
+    ],
+    "paymentPlans": [
+      {
+        "duration": "Milestone Delivery (0–6 Months)",
+        "priceDisplay": "₦38,000,000",
+        "depositRequired": "₦10,000,000",
+        "monthlyInstallment": "3 equal tranches linked to civil engineering milestones"
+      }
+    ],
+    "allocationTimeline": [
+      "Step 1: AGIS Title Search & Legal Verification",
+      "Step 2: Formal Allocation Letter & Site Inspection",
+      "Step 3: Development Covenant Signing & Initial Deposit",
+      "Step 4: Direct Physical Site Demarcation & Beacon Handover"
+    ],
+    "infrastructure": {
+      "perimeterFence": "COMPLETED",
+      "accessRoad": "PAVED",
+      "gateHouse": "COMPLETED",
+      "electricitySupply": "CONNECTED",
+      "drainageNetwork": "CONCRETE_DRAINS_DONE",
+      "securityPost": "ACTIVE",
+      "notes": "Asphalt access road connected to district arterial. Concrete storm drainage completed."
+    },
+    "locationRationale": {
+      "title": "Prime Residential Stature in Guzape",
+      "points": [
+        "Elevated topography offering panoramic views and cool natural ventilation.",
+        "Strict FCDA building covenants ensuring orderly residential surroundings.",
+        "Fully serviced district infrastructure connecting directly to Asokoro."
+      ]
+    }
+  }
+]
